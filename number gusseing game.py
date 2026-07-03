@@ -40,6 +40,9 @@ or exit: """)
         elif guess < secret_number:
              print("Low guess")
 
-        else:
+        elif guess == secreat_number:
              print("Right!")
-             break
+
+        else:
+            print("invalid enter")
+            break
